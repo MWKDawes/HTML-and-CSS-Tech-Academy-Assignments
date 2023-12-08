@@ -1,0 +1,9 @@
+p{
+		background-color: blue;
+		color: lime;
+		text-decoration: underline overline;
+		font-family: Comic Sans MS;
+		font-weight: bold;
+		font-size: normal;
+		text-shadow: 2px 2px #ff0000
+	}
