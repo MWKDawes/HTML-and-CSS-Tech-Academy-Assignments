@@ -14,7 +14,7 @@ body {
     top: 0;
     left:0;
     /*To the top edge of the screen*/
-    position: aboslute;
+    position: absolute;
     width: 100%;
     background-color: #184352;
 }
@@ -31,7 +31,7 @@ body {
 .menu li {
     color: #B3B3B3;
     display: inline-block;
-    margin-right: -2;
+    margin-right: -2px;
     position: relative;
     padding: 12px 40px;
     border: 1px solid #9D9FA2;
