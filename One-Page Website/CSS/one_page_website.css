@@ -1,0 +1,14 @@
+html * {
+    font-size: medium;
+    font-family: 'Copperplate Gothic Light';
+}
+
+input {
+    width: 90%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: 2px red dashed;
+    border-radius: 2px;
+    
+}
+
