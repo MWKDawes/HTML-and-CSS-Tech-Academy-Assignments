@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Mike Dawes | Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="./CSS/Portfolio_css.css">
+        <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/zelda-dx">
+        <link href="https://fonts.cdnfonts.com/css/mairon" rel="stylesheet">
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+
+        <!--Navigation-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About Me</a>
+            <a href="#Github">Github</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <br>
+        <br>
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="./Images/Video/Matrix.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Mike Dawes's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>The universe itself keeps on expanding and expanding
+                        <br>In all of the directions it can whizz.
+                    </q>
+                    <br>-Eric Idle (Monty Python)
+                    <br>
+                    <br>My name is Mike Dawes. Check out my portfolio!
+                    <br>
+                    <br>Thanks for popping in, enjoy!
+                </p>
+            </strong>
+        </div>
+
+        <!--About-->
+        <div class="Row" id="About">
+            <!--Left Column-->
+            <div class="Column_2">
+                <img src="./Images/Mountainscape.jpeg" alt="Misty Mountains">
+            </div>
+            <!--Right Column-->
+            <div class="Column_1">
+                <h1>About Me</h1>
+                <p>
+                    I am a newly trained software programmer and have a passion for graphic design and gaming.
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s UI/UX Design Booty Camp and was trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, and more.
+                </p>
+            </div>
+        </div>
+
+        <!--Github Section-->
+        <div class="Row" id="Github">
+            <!--Left Column-->
+            <div class="Column_1">
+                <h1>My Github profile</h1>
+                <p>
+                    You can view my various coding project by checking out my Github!
+                    <br>
+                    <p class="center"><a href="https://github.com/MWKDawes" target="_blank">My Github</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/MWKDawes" target="_blank"><img src="./Images/Github.png" alt="Github Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="./Images/Contact.jpeg" alt="Contact Image">
+            </div>
+            <!--Contact form, left column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <form action="" method="post"> 
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Feel free to attach a message!">
+                </form>
+            </div>
+        </div>
+
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy;MWKD Inc., <a href="https://www.DangerousToGoAlone.com" target="_blank">...Take this</a></p>
+            </p>
+        </footer>
+    </body>
+</html>

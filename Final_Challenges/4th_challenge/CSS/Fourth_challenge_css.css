@@ -1,0 +1,16 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blue;
+    font-family: 'THE AMAZING SPIDER-MAN', sans-serif;
+    font-size: 500%;
+    font-weight: bold;
+}

@@ -1,0 +1,9 @@
+.navbar {
+    background-color: red;
+    color: blue;
+}
+
+a:hover {
+    background-color: blue;
+    color: red;
+}

@@ -1,0 +1,260 @@
+/* Body */
+body {
+    margin: 0%
+}
+
+/* Heading 1 elements */
+h1 {
+    text-transform: uppercase;
+    font-family: 'Zelda DX TT (BRK)', sans-serif;
+    text-align: center;
+    margin-top: 3%;
+    color: #4636f9;
+}
+
+h1:hover {
+    filter: sepia(50%);
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+
+/* Paragraph elements */
+p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p:hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+/* Center class */
+.center {
+    text-align: center;
+}
+
+.center:hover {
+    transition: transform 2s;
+    transform: scale(1.1);
+}
+
+/* Anchor elements */
+a {
+    color: blue
+}
+
+/* Quotation elements */
+q {
+    font-style: italic;
+}
+
+/* Image Elements */
+img {
+    filter: sepia(75%);
+    border-radius: 8px;
+    max-width: 100%;
+    height: 340px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover {
+    filter: none;
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+
+/* Ruling for Screen Size */
+@media screen and (max-width: 576px) {
+    img {
+        height: 100px;
+        margin-top: 150px;
+    }
+}
+
+footer {
+    padding: 2%;
+    background-color: black;
+    color: white;
+}
+
+/*** NAVBAR STYLING ***/
+.Navbar {
+    overflow: hidden;
+    background-color: rgb(32, 113, 27);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    -webkit-animation: moveNav 5s;
+    animation: moveNav 5s;
+}
+
+@keyframes moveNav {
+    from {left: -100vw;}
+    to {left: 0vw;}
+}
+
+/* Links */
+.Navbar a {
+    float: left;
+    display: block;
+    color: #FBC841;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Mairon', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    -webkit-animation: moveNavText 5.75s;
+    animation: moveNavText 5.75s;
+}
+
+@keyframes moveNavText {
+    from {top: -100vw;}
+    to {top:0vw;}
+}
+
+@media screen and (max-width: 576px) {
+    .Navbar a{
+        width: 25%;
+        font-size: 12px;
+    }
+}
+
+.Navbar a:hover {
+    background-color:rgb(24, 87, 21);
+    color: #c09a32;
+    font-weight: bold;
+}
+
+.Navbar a.active {
+    background-color: rgb(24, 87, 21);
+}
+
+/**END OF NAVBAR**/
+
+/** VIDEO STYLING **/
+#Typing_Video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    z-index: -1;
+}
+
+@media screen and (max-width: 576px) {
+    #Typing_Video {
+        display: none;
+    }
+}
+
+.Video_Text {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    -webkit-animation: moveVideoText 5.75s;
+    animation: moveVideoText 5.75s;
+}
+
+@keyframes moveVideoText {
+    from {top:-100vw;}
+    to {top:0vw;}
+}
+/** END OF VIDEO STYLING **/
+
+/** TABLE STYLING **/
+* {
+    box-sizing: border-box;
+}
+
+.Column_1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 3%;
+    height: 400px;
+    background-color: rgb(32, 113, 27);
+}
+
+@media screen and (max-width: 576px) {
+    .Column_1 {
+        overflow: auto;
+    }
+}
+
+.Column_2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 1.9%;
+    height: 400px;
+    background-color: #c09a32;
+}
+
+.Column_tall {
+    padding-top: 3.5%;
+    height: 450px;
+}
+
+.Row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/** END OF TABLE STYLING **/
+
+/** CONTACT FORM STYLING **/
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #FBC841;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Zelda DX TT (BRK)', sans-serif;
+}
+
+input[type=text]:hover {
+    box-shadow: 0 0 5px rgb(24, 87, 21) inset;
+}
+
+input[type=submit] {
+    background-color: rgb(32, 113, 27);
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Mairon', sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(176, 176, 176);
+    color: #FBC841;
+    transform: scale(1.5);
+    transition: transform 1.5s;
+}
+
+form {
+    border-radius: 5px;
+    background-color: rgb(176, 176, 176);
+    padding: 10px;
+    font-family: 'Zelda DX TT (BRK)', sans-serif;
+}
