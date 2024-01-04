@@ -1,0 +1,46 @@
+<section>
+    <div id="gallery">
+        <table style="font-family:'Copperplate Gothic Light'; color:red;">
+            <tr>
+                <th style="background-color:black;">Location</th>
+                <th style="background-color:black;">Book Art</th>
+                <th style="background-color:black;">Movie Art and Screenshots</th>
+            </tr>
+            <tr>
+                <th style="background-color:black;">Shelob's Lair</th>
+                <th><img src="./Images/Book_Art/ShelobsLairB.jpg" alt="Book art of Shelob's Lair" style="width:125%;height:125%"></th>
+                <th><img src="./Images/Movie_Art/ShelobsLairM.jpg" alt="Movie art of Shelob's Lair" style="width:75%;height:85%"></th>
+            </tr>
+            <tr>
+                <th style="background-color:black;">Minas Morgul</th>
+                <th><img src="./Images/Book_Art/MinasMorgulB.jpg" alt="Book art of Minas Morgul" style="width:100%;height:100%"></th>
+                <th><img src="./Images/Movie_Art/MinasMorgulM.jpg" alt="Movie art of Minas Morgul" style="width:100%;height:100%"></th>
+            </tr>
+            <tr>
+                <th style="background-color:black;">Cirith Ungol</th>
+                <th><img src="./Images/Book_Art/CirithUngolB.jpg" alt="Book art of Cirith Ungol" style="width:150%;height:150%"></th>
+                <th><img src="./Images/Movie_Art/CirithUngolM.jpg" alt="Movie art of Cirith Ungol" style="width:100%;height:100%"></th>
+            </tr>
+            <tr>
+                <th style="background-color:black;">The Towers of the Teeth</th>
+                <th><img src="./Images/Book_Art/TowersOfTheTeethB.jpg" alt="Book art of The Towers of the Teeth" style="width:100%;height:100%"></th>
+                <th><img src="./Images/Movie_Art/TowersOfTheTeethM.jpg" alt="Movie art of The Towers of the Teeth" style="width:100%;height:100%"></th>
+            </tr>
+            <tr>
+                <th style="background-color:black;">The Black Gate</th>
+                <th><img src="./Images/Book_Art/BlackGateB.jpg" alt="Book art of The Black Gate" style="width:100%;height:100%"></th>
+                <th><img src="./Images/Movie_Art/BlackGateM.jpg" alt="Movie art of The Black Gate" style="width:100%;height:100%"></th>
+            </tr>
+            <tr>
+                <th style="background-color:black;">Barad'dur</th>
+                <th><img src="./Images/Book_Art/BaraddurB.jpg" alt="Book art of Barad'dur" style="width:125%;height:125%"></th>
+                <th><img src="./Images/Movie_Art/BaraddurM.jpg" alt="Movie art of Barad'dur" style="width:67%;height:67%"></th>
+            </tr>
+            <tr>
+                <th style="background-color:black;">Mt. Doom</th>
+                <th><img src="./Images/Book_Art/MtDoomB.jpg" alt="Book art of Mt. Doom" style="width:150%;height:150%"></th>
+                <th><img src="./Images/Movie_Art/MtDoomM.jpg" alt="Movie art of Mt. Doom" style="width:75%;height:75%"></th>
+            </tr>
+        </table>
+    </div>
+</section>

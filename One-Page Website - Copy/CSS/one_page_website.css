@@ -1,53 +1,20 @@
-input {
-    width: 90%;
-    padding: 8px 20px;
-    margin: 8px 0;
-    border: 2px red dashed;
-    border-radius: 2px;
-    
-}
-
-html * {
-    font-family: 'Copperplate Gothic Light'
-}
-
 .row > .column {
     padding: 0 8px;
 }
-
+  
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-
-/* Created equal columns that float next to eachother*/
-.columntext {
-    font-size: xx-large;
-    background-color: red;
-    color: black;
-    float:left;
-    width:20%;
-    border-radius: 14px;
-    text-align: center;
-}
+  
+/* Create four equal columns that floats next to eachother */
 .column {
-    display: center;
     float: left;
-    width: 33%;
-    font-weight: bold;
-    font-size: larger;
+    width: 25%;
 }
-
-.columntb {
-    display: center;
-    float: left;
-    width: 45%;
-    font-weight: bold;
-    font-size: larger;
-}
-
-/*The Modal (background)*/
+  
+/* The Modal (background) */
 .modal {
     display: none;
     position: fixed;
@@ -60,17 +27,17 @@ html * {
     overflow: auto;
     background-color: black;
 }
-
+  
 /* Modal Content */
 .modal-content {
     position: relative;
-    background-color: #ff0000;
+    background-color: #fefefe;
     margin: auto;
     padding: 0;
     width: 90%;
     max-width: 1200px;
 }
-
+  
 /* The Close Button */
 .close {
     color: white;
@@ -80,23 +47,19 @@ html * {
     font-size: 35px;
     font-weight: bold;
 }
-
+  
 .close:hover,
 .close:focus {
     color: #999;
     text-decoration: none;
     cursor: pointer;
 }
-
-/* Hides the slides by default */
+  
+/* Hide the slides by default */
 .mySlides {
     display: none;
-    text-align: center;
-    width: auto;
-    height: auto;
-    object-fit: cover;
 }
-
+  
 /* Next & previous buttons */
 .prev,
 .next {
@@ -114,20 +77,20 @@ html * {
     user-select: none;
     -webkit-user-select: none;
 }
-
-/*Position the "next button" to the right*/
+  
+/* Position the "next button" to the right */
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-
-/* On hover, add a black background color with opacity*/
+  
+/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
-/* Number text */
+  
+/* Number text (1/3 etc) */
 .numbertext {
     color: #f2f2f2;
     font-size: 12px;
@@ -135,29 +98,28 @@ html * {
     position: absolute;
     top: 0;
 }
-
+  
 /* Caption text */
 .caption-container {
     text-align: center;
-    background-color: red;
+    background-color: black;
     padding: 2px 16px;
-    color: black;
+    color: white;
 }
-
+  
 img.demo {
     opacity: 0.6;
 }
-
+  
 .active,
 .demo:hover {
     opacity: 1;
 }
-
+  
 img.hover-shadow {
     transition: 0.3s;
 }
-
+  
 .hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20x 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-

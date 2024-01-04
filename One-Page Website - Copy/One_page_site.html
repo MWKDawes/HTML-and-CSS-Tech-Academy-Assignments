@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>In The Land of Mordor...</title>
+		<link rel="stylesheet" href="./CSS/one_page_website.css">
+		<script src="./JS/one_page_website.js" defer></script>
+		<style>
+
+			.topnav {
+				overflow: hidden;
+				background-color: #A9A9A9;
+			}
+	
+			.topnav a {
+				float: left;
+				color: #f2f2f2;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font-size: 17px;
+			}
+	
+			.topnav a:hover {
+				background-color: #8B0000;
+				color: white;
+			}
+	
+			.topnav a.active {
+				background-color: #8B0000;
+				color: black;
+			}
+		
+		</style>
+	</head>
+	<body>
+		<section  style="background-image: url(./Images/Book_Art/MordorMap2.jpg);">
+			<!--NAV-->
+			<div>
+				<div class="topnav">
+					<b><ul style="font-family:'Copperplate Gothic Light'; color:red;">
+						<a class="active" href="#home" id="link"><li>Through the Black Gates</li></a>
+						<a href="#gallery"><li>Art vs Movie gallery</li></a>
+						<a href="#video"><li>Mordor Explained</li></a>
+						<a href="#contact"><li>The Eagles are Coming!</li></a>
+					</ul></b>
+				</div>
+			</div>
+			<!--END NAV-->
+			
+			<!--HOME-->
+			<div id="home">
+				 <style>
+				details > summary {
+				list-style: none;
+					}
+				details > summary::-webkit-details-marker {
+				display: none;
+					}
+				</style>
+				<details>
+					<summary><center>click-><span style="font-family:'Brush Script MT'; background-color:red; color:black; font-size:50px;">
+					MORDOR&nbsp;
+					</span></center></summary>
+					<center><p style="font-family:'Copperplate Gothic Light'; background-color:black; color:red; font-size: 25px">
+					The Black Land, Home to Mt. Doom, And Where Hope Perishes
+					</p></center>
+				</details>
+			</div>
+			<!--END HOME-->
+			
+			<!--COMPARISON GALLERY-->
+			<!-- Images used to open the lightbox -->
+			<div class="row">
+				<div class="column">
+				<img src="./Images/Thumbnails/ShelobsLairMtb.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				</div>
+				<div class="column">
+				<img src="./Images/Thumbnails/ShelobsLairBtb.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+				</div>
+				<div class="column">
+				<img src="./Images/Thumbnails/TowersOfTheTeethBtb.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+				</div>
+				<div class="column">
+				<img src="./Images/Thumbnails/TowersOfTheTeethMtb.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+				</div>
+			</div>
+			
+			<!-- The Modal/Lightbox -->
+			<div id="myModal" class="modal">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+			
+					<div class="mySlides">
+						<div class="numbertext">1 / 4</div>
+						<img src="./Images/Book_Art/ShelobsLairB.jpg" style="width:100%">
+					</div>
+				
+					<div class="mySlides">
+						<div class="numbertext">2 / 4</div>
+						<img src="./Images/Movie_Art/ShelobsLairM.jpg" style="width:100%">
+					</div>
+				
+					<div class="mySlides">
+						<div class="numbertext">3 / 4</div>
+						<img src="./Images/Book_Art/TowersOfTheTeethB.jpg" style="width:100%">
+					</div>
+				
+					<div class="mySlides">
+						<div class="numbertext">4 / 4</div>
+						<img src="./Images/Movie_Art/TowersOfTheTeethM.jpg" style="width:100%">
+					</div>
+				
+					<!-- Next/previous controls -->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				
+					<!-- Caption text -->
+					<div class="caption-container">
+						<p id="caption"></p>
+					</div>
+				
+					<!-- Thumbnail image controls -->
+					<div class="column">
+						<img class="demo" src="./Images/Thumbnails/ShelobsLairBtb.jpg" onclick="currentSlide(1)" alt="Shelobs Lair">
+					</div>
+				
+					<div class="column">
+						<img class="demo" src="./Images/Thumbnails/ShelobsLairMtb.jpg" onclick="currentSlide(2)" alt="Shelobs Lair">
+					</div>
+				
+					<div class="column">
+						<img class="demo" src="./Images/Thumbnails/TowersOfTheTeethBtb.jpg" onclick="currentSlide(3)" alt="Mountains">
+					</div>
+				
+					<div class="column">
+						<img class="demo" src="./Images/Thumbnails/TowersOfTheTeethMtb.jpg" onclick="currentSlide(4)" alt="Lights">
+					</div>
+				</div>
+			</div>
+			<!--END COMPARISON GALLERY-->
+		
+			
+			<!--HISTORY VIDEO-->
+			<div id="video">
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<center><iframe width="560" height="315" src="https://www.youtube.com/embed/o5TaNxHfN-A?si=mcIOyx-fksNula8v" title="YouTube video player" 
+				frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+					
+		</section>
+			
+			<!--CONTACT-->
+			<section>
+				<div id="contact">
+					<div>
+						<h1>Send a messenger!</h1>
+						<div>
+							<h2>Put in your information if you dare to join the fellowship!</h2>
+							<p>Not all those who wander are lost</p>
+							<div>
+								<form action="" method="post">
+									<input class="rsvp" type="text" value="" placeholder="First Name"><br>
+									<input class="rsvp" type="text" value="" placeholder="Last Name"><br>
+									<input class="rsvp" type="text" value="" placeholder="Email Address"><br>
+									<input class="rsvp" type="text" value="" placeholder="Phone Number"><br>
+									<input type="submit" value="Submit" style="border: 2px black solid">
+								</form>
+							</div>
+						</div>
+					<div>
+				</div>
+			</section>
+			<!--END CONTACT-->
+			
+			<!--FOOTER-->
+			<div>
+				<p style="font-size:10px">www.FlyYouFools.com &copy; 2023, I do not own any Lord Of the Rings Properties, this is a fan page</p>
+			</div>
+			<!--END FOOTER-->
+	</body>
+</html>
