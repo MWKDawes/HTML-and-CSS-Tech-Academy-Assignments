@@ -8,9 +8,15 @@
 		<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/the-wild-breath-of-zelda">
 		<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/zelda-dx">
 		<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/borderland-2">
+		<style src="./JS/main.js"></style>
 	</head>
 	<body>
-	
+		<script>
+			document.body.classList.add('fade-out');
+			window.addEventListener('DOMContentLoaded', () => {
+  			document.body.classList.remove('fade-out');
+			});
+		</script>
 		<!--NAV-->
 		<div class="wrap">
 			<div class="menu-container">
@@ -19,8 +25,9 @@
 					<a href="#articles"><li>THE WIND...IT IS BLOWING</li></a>
 					<a href="#gallery"><li>THE MANY WORLDS</li></a>
 					<a href="#contact"><li>HEY! LISTEN!</li></a>
-				</ul>
+				</ul>		
 			</div>
+			<img src="./Images/Triforce.png" id="iconfall"></img>
 		</div>
 		<!--END NAV-->
 		
@@ -292,11 +299,11 @@
 								Beedle's Mail Service:
 							</p>
 							<div class="form-rsvp">
-								<form action="" method="post">
-									<input class="rsvp" type="text" value="" placeholder="First Name"><br>
-									<input class="rsvp" type="text" value="" placeholder="Last Name"><br>
-									<input class="rsvp" type="text" value="" placeholder="Email Address"><br>
-									<input class="rsvp" type="text" value="" placeholder="Phone Number"><br>
+								<form name="rsvp_form" action="" method="post">
+									<input class="rsvp" type="text" name="fname" placeholder="First Name"><br>
+									<input class="rsvp" type="text" value="" name="lname" placeholder="Last Name"><br>
+									<input class="rsvp" type="text" value="" name="Email" placeholder="Email Address"><br>
+									<input class="rsvp" type="text" value="" name="Phone" placeholder="Phone Number"><br>
 									<div class="form-spacer">
 										<label class="terms">Terms and Conditions</label>
 									</div>

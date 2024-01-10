@@ -15,6 +15,7 @@
         <!--Navigation-->
         <div class="Navbar">
             <a class="active" href="#Home">Home</a>
+            <a href="#Slideshow">Slideshow</a>
             <a href="#About">About Me</a>
             <a href="#Github">Github</a>
             <a href="#Contact">Contact</a>
@@ -45,6 +46,46 @@
                     <br>Thanks for popping in, enjoy!
                 </p>
             </strong>
+        </div>
+
+        <!--Slideshow section-->
+        <div id="Slideshow">
+            <div id="Slideshow_Background">
+                <div id="Slideshow_Container">
+                    <!--Slide 1-->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./Images/PersonalPhoto.jpg" alt="Picture of myself and my Nana">
+                        <div class="text">I'm here to help get your project to the next level!</div>
+                    </div>
+                    <!--Slide 2-->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./Images/HTML_CSS_JS_Java_Python.png" alt="Icons for HTML, CSS, JS, Java, Python">
+                        <div class="text">I'm a UI/UX developer, trained in<br> these languages, including:</div>
+                    </div>
+                    <!--Slide 3-->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./Images/C++.png" alt="C++ icon">
+                        <div class="text">Have taken classes in C++ for game development</div>
+                    </div>
+                    <!--Slide 4-->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./Images/Computer_writing.jpg" alt="Writing on Computer image">
+                        <div class="text"><a class="white-text contact" onclick="openForm()">Feel free to contact me for any questions!</a></div>
+                    </div>
+                    <!--Previous and next buttons-->
+                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <!--Slideshow dots-->
+                <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
         </div>
 
         <!--About-->
@@ -82,21 +123,20 @@
         </div>
 
         <!--Contact-->
-        <div class="Row" id="Contact">
-            <!--Contact image, left column-->
-            <div class="Column_2 Column_tall">
-                <img src="./Images/Contact.jpeg" alt="Contact Image">
-            </div>
-            <!--Contact form, left column-->
-            <div class="Column_1 Column_tall">
-                <h1>Contact</h1>
-                <form action="" method="post"> 
+        <div id="Contact">
+            <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
+            <div class="form-popup" id="myForm">
+                <form action="https://formspree.io/f/mgegwnde" method="post" clas="form-container"> 
+                    <h1>Contact</h1>
                     <label>Name:</label>
-                        <input type="text" placeholder="Please enter your name">
+                        <input type="text" placeholder="Please enter your name" name="name" required>
                     <label>Email:</label>
                         <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
                     <label>Message:</label>
                         <input type="text" id="Message" name="Message" placeholder="Feel free to attach a message!">
+                    
+                    <button type="submit" class="btn">SUBMIT</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
                 </form>
             </div>
         </div>
@@ -108,5 +148,6 @@
                 <p class="center">&copy;MWKD Inc., <a href="https://www.DangerousToGoAlone.com" target="_blank">...Take this</a></p>
             </p>
         </footer>
+        <script src="./JS/main.js"></script>
     </body>
 </html>
